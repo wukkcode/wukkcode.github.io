@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wukkcode.github.io</id>
     <title>开发者武轲的博客</title>
-    <updated>2021-06-15T03:02:52.425Z</updated>
+    <updated>2021-06-15T03:03:00.825Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wukkcode.github.io"/>
     <link rel="self" href="https://wukkcode.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>但行好事，莫问前程</subtitle>
     <logo>https://wukkcode.github.io/images/avatar.png</logo>
     <icon>https://wukkcode.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 开发者武轲的博客</rights>
