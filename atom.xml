@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wukkcode.github.io</id>
     <title>开发者武轲的博客</title>
-    <updated>2021-06-15T01:36:43.695Z</updated>
+    <updated>2021-06-15T01:40:03.860Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wukkcode.github.io"/>
     <link rel="self" href="https://wukkcode.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://wukkcode.github.io/images/avatar.png</logo>
     <icon>https://wukkcode.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 开发者武轲的博客</rights>
+    <entry>
+        <title type="html"><![CDATA[我的第一篇博客]]></title>
+        <id>https://wukkcode.github.io/post/wo-de-di-yi-pian-bo-ke/</id>
+        <link href="https://wukkcode.github.io/post/wo-de-di-yi-pian-bo-ke/">
+        </link>
+        <updated>2021-06-15T01:38:49.000Z</updated>
+        <content type="html"><![CDATA[<p>大家好我是开发者武轲，我正在试用Gridea写静态博客</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://wukkcode.github.io/post/hello-gridea/</id>
