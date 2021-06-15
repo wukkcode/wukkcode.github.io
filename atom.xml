@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wukkcode.github.io</id>
     <title>看山学长</title>
-    <updated>2021-06-15T07:36:20.363Z</updated>
+    <updated>2021-06-15T07:38:26.882Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wukkcode.github.io"/>
     <link rel="self" href="https://wukkcode.github.io/atom.xml"/>
@@ -37,7 +37,7 @@
         <updated>2021-06-15T01:38:49.000Z</updated>
         <content type="html"><![CDATA[<p>因为阿里云的服务器到期了，我把博客部署到<a href="http://localhost:4000/post/about/">Github</a>上了。<br>
 使用<a href="https://wukkcode.github.io/">Gridea</a>平台管理博客文章<br>
-Gridea的使用可查看<a href="https://gridea.dev/gridea-start/">部署</a></p>
+Gridea的使用可查看<a href="https://gridea.dev/gridea-start/">部署文档</a></p>
 ]]></content>
     </entry>
 </feed>
