@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wukkcode.github.io</id>
     <title>看山学长</title>
-    <updated>2021-06-18T11:20:35.993Z</updated>
+    <updated>2021-06-18T13:59:38.984Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wukkcode.github.io"/>
     <link rel="self" href="https://wukkcode.github.io/atom.xml"/>
@@ -10,6 +10,38 @@
     <logo>https://wukkcode.github.io/images/avatar.png</logo>
     <icon>https://wukkcode.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 看山学长</rights>
+    <entry>
+        <title type="html"><![CDATA[小头放前，大头放后]]></title>
+        <id>https://wukkcode.github.io/post/xiao-tou-fang-qian-da-tou-fang-hou/</id>
+        <link href="https://wukkcode.github.io/post/xiao-tou-fang-qian-da-tou-fang-hou/">
+        </link>
+        <updated>2021-06-18T13:57:02.000Z</updated>
+        <content type="html"><![CDATA[<pre><code class="language-c">// 小于头部元素放前面，大于头部元素放后面
+void fnMoveElementsBetweenHead(int target[], int length) {
+    int temp;
+    int i = 0;
+    int j = length-1;
+    temp = target[i];
+    while(i&lt;j) {
+        while(i&lt;j &amp;&amp; target[j]&gt;temp) --j;
+        // 从后往前，在第一个比temp小的元素停下来
+        if (i&lt;j) {
+            target[i] = target[j];
+            ++i;  // i后移
+        }
+
+        while(i&lt;j &amp;&amp; target[i]&lt;temp) ++i;
+        // 从前往后，在第一个比temp大的元素停下来
+        if (i&lt;j) {
+            target[j] = target[i];
+            --j;
+        }
+    }
+    target[i] = temp;
+}
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[回到状态了]]></title>
         <id>https://wukkcode.github.io/post/jin-ri-gan-hong-po-shen/</id>

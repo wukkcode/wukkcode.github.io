@@ -2,7 +2,7 @@
 <html lang="zh-CN">
  <head>
      <meta charset="utf-8" />
-  <title>博客文章迁移 | 看山学长</title>
+  <title>小头放前，大头放后 | 看山学长</title>
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
   <link rel="stylesheet" href="https://wukkcode.github.io/styles/main.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
@@ -87,22 +87,47 @@
      <div class="post-page">
       <div class="post animated fadeInDown">
        <div class="post-title">
-        <h3><a>博客文章迁移</a></h3>
+        <h3><a>小头放前，大头放后</a></h3>
        </div>
        <div class="post-content">
-        <p>因为阿里云的服务器到期了，我把博客部署到<a href="http://localhost:4000/post/about/">Github</a>上了。<br>
-使用<a href="https://wukkcode.github.io/">Gridea</a>平台管理博客文章<br>
-Gridea的使用可查看<a href="https://gridea.dev/gridea-start/">部署文档</a></p>
+        <pre><code class="language-c">// 小于头部元素放前面，大于头部元素放后面
+void fnMoveElementsBetweenHead(int target[], int length) {
+    int temp;
+    int i = 0;
+    int j = length-1;
+    temp = target[i];
+    while(i&lt;j) {
+        while(i&lt;j &amp;&amp; target[j]&gt;temp) --j;
+        // 从后往前，在第一个比temp小的元素停下来
+        if (i&lt;j) {
+            target[i] = target[j];
+            ++i;  // i后移
+        }
+
+        while(i&lt;j &amp;&amp; target[i]&lt;temp) ++i;
+        // 从前往后，在第一个比temp大的元素停下来
+        if (i&lt;j) {
+            target[j] = target[i];
+            --j;
+        }
+    }
+    target[i] = temp;
+}
+</code></pre>
 
        </div>
        <div class="post-footer">
         <div class="meta">
          <div class="info">
           <i class="fa fa-sun-o"></i>
-          <span class="date">2021-06-15</span>
+          <span class="date">2021-06-18</span>
           <i class="fa fa-tag"></i>
           
-          <a class="tag" href="https://wukkcode.github.io/tag/KtByQoIeg/" title="博客">博客 </a>
+          <a class="tag" href="https://wukkcode.github.io/tag/UhJj1IrPa/" title="算法">算法 </a>
+          
+          <a class="tag" href="https://wukkcode.github.io/tag/Kr-BPTQ21q/" title="数据结构">数据结构 </a>
+          
+          <a class="tag" href="https://wukkcode.github.io/tag/fSp0qLxzM/" title="考研">考研 </a>
           
          </div>
         </div>
@@ -116,14 +141,14 @@ Gridea的使用可查看<a href="https://gridea.dev/gridea-start/">部署文档<
         <a class="fa fa-weibo" href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));"></a>
        </div>
        <div class="twitter">
-        <a class="fa fa-twitter" href="http://twitter.com/home?status=,https://wukkcode.github.io/post/wo-de-di-yi-pian-bo-ke/,;"></a>
+        <a class="fa fa-twitter" href="http://twitter.com/home?status=,https://wukkcode.github.io/post/xiao-tou-fang-qian-da-tou-fang-hou/,;"></a>
        </div>
       </div>
       <div class="pagination">
        <ul class="clearfix">
 
-        <li class="pre pagbuttons"><a class="btn" role="navigation" href="https://wukkcode.github.io/post/jian-dan-li-jie-cheng-xu-bian-yi-he-jie-shi/" title="简单理解程序编译和解释">上一篇</a></li>
-         
+        
+        <li class="next pagbuttons"><a class="btn" role="navigation" href="https://wukkcode.github.io/post/jin-ri-gan-hong-po-shen/" title=" 回到状态了">下一篇</a></li>
         
        </ul>
       </div>
