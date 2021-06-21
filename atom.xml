@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wukkcode.github.io</id>
     <title>看山学长</title>
-    <updated>2021-06-21T02:26:40.932Z</updated>
+    <updated>2021-06-21T09:30:11.004Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wukkcode.github.io"/>
     <link rel="self" href="https://wukkcode.github.io/atom.xml"/>
@@ -17,30 +17,37 @@
         </link>
         <updated>2021-06-21T00:25:14.000Z</updated>
         <content type="html"><![CDATA[<h3 id="体验">体验</h3>
-<p>您可以通过<a href="http://www.gaoxiaoadvice.top/">http://www.gaoxiaoadvice.top/</a> 本项目。</p>
+<p>您可以通过<a href="http://www.gaoxiaoadvice.top/">体验地址</a> 体验本项目。</p>
 <blockquote>
 <p>注意：如果遇到无法访问的情况，请稍后再试。</p>
 </blockquote>
 <h3 id="初衷">初衷</h3>
-<p>作为一个有强迫症的重度搜索引擎用户，没法忍受“前五条搜索结果是广告”的搜索引擎。简单的说，就是觉得它们长得丑还不好用。</p>
+<p>作为一个有强迫症的重度搜索引擎用户，没法忍受“前五条搜索结果是广告”的搜索引擎。<br>
+总之一句话，就是觉得它们长得丑还不好用。</p>
 <h3 id="项目地址">项目地址</h3>
 <p>基于友好的Apache 2.0协议，在<a href="https://github.com/wukkcode/-xiao-_meta_search_engine_system">GitHub</a>开源了</p>
-<h3 id="设计思想">设计思想</h3>
-<figure data-type="image" tabindex="1"><img src="https://p.pstatp.com/origin/pgc-image/739cca25af18494d85c33121a60f2d92" alt="" loading="lazy"></figure>
+<h3 id="项目相关">项目相关</h3>
+<figure data-type="image" tabindex="1"><img src="https://p.pstatp.com/origin/pgc-image/ea012f0ac7f9493f8f73cc729965532a" alt="" loading="lazy"></figure>
 <h3 id="项目大纲">项目大纲</h3>
-<figure data-type="image" tabindex="2"><img src="https://p.pstatp.com/origin/pgc-image/ca49b47daa3244fea3ab72768b9141c8" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://p.pstatp.com/origin/pgc-image/4428ffa86ccb4840900893ebfa313ddd" alt="" loading="lazy"></figure>
+<h3 id="ui设计思想">UI设计思想</h3>
+<blockquote>
+<p>只有简单的纯色，无图片的UI，简洁的版型，但依然很酷。</p>
+</blockquote>
 <h3 id="web端">WEB端</h3>
 <blockquote>
 <p>支持全局主题切换</p>
 </blockquote>
-<p><img src="https://p.pstatp.com/origin/pgc-image/7950aca5733e4339a9fbdf424fd82c56" alt="" loading="lazy"><br>
-<img src="https://p.pstatp.com/origin/pgc-image/73e84bb3309f4f45be476f25bd8bbfb0" alt="" loading="lazy"><br>
-<img src="https://p.pstatp.com/origin/pgc-image/f48cc28365304bc48d6a5b89653c10f2" alt="" loading="lazy"></p>
+<p><img src="https://p.pstatp.com/origin/pgc-image/451df6fe5caa4a2f8b21077118f64fbb" alt="主页" loading="lazy"><br>
+<img src="https://p.pstatp.com/origin/pgc-image/2c22027a1c6d44a4abcbcf61eb1a1bb3" alt="搜索页" loading="lazy"><br>
+<img src="https://p.pstatp.com/origin/pgc-image/b84bc5a0f74d4a32ade6b7a77f25a6d5" alt="翻译页" loading="lazy"><br>
+<img src="https://p.pstatp.com/origin/pgc-image/9695cea920ea41a5849329fef0fe7b77" alt="疫情页" loading="lazy"><br>
+<img src="https://p.pstatp.com/origin/pgc-image/ecb483518c514b65b1133c3e0c8e1d79" alt="新闻页" loading="lazy"></p>
 <h3 id="移动端">移动端</h3>
 <p>使用<a href="http://fusionapp.mysxl.cn/">Fusion APP</a>封装，基于<a href="https://zhuanlan.zhihu.com/p/142800148">Webview技术</a><br>
-<img src="https://p.pstatp.com/origin/pgc-image/cfac27e46c2243bfa6e90bd6bfaf7e14" alt="" loading="lazy"><br>
-移动端UI借鉴的是(腾讯TIM)[https://office.qq.com/]聊天软件<br>
-<img src="https://p.pstatp.com/origin/pgc-image/0fe35cad91f9460ebdb2658bf805bee9" alt="" loading="lazy"></p>
+<img src="https://p.pstatp.com/origin/pgc-image/24a6da5ba2454c8eac89e204553b10f5" alt="" loading="lazy"><br>
+移动端UI借鉴的是<a href="https://office.qq.com/">腾讯TIM</a>聊天软件<br>
+<img src="https://p.pstatp.com/origin/pgc-image/e8df68331bdd4408b3b604356ba9e555" alt="" loading="lazy"></p>
 <h3 id="桌面端">桌面端</h3>
 <p>使用<a href="https://www.electronjs.org/">Electron</a>跨平台框架开发，可使用前端技术开发Windows、Mac、Linux桌面软件。<br>
 整体UI共用移动端。</p>
