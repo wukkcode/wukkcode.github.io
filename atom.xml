@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wukkcode.github.io</id>
     <title>看山学长</title>
-    <updated>2021-06-21T12:26:36.269Z</updated>
+    <updated>2021-06-27T13:59:13.518Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wukkcode.github.io"/>
     <link rel="self" href="https://wukkcode.github.io/atom.xml"/>
@@ -10,6 +10,61 @@
     <logo>https://wukkcode.github.io/images/avatar.png</logo>
     <icon>https://wukkcode.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 看山学长</rights>
+    <entry>
+        <title type="html"><![CDATA[我毕业了]]></title>
+        <id>https://wukkcode.github.io/post/guan-yu-bi-ye/</id>
+        <link href="https://wukkcode.github.io/post/guan-yu-bi-ye/">
+        </link>
+        <updated>2021-06-24T10:17:12.000Z</updated>
+        <content type="html"><![CDATA[<p>2021年6月25日毕业典礼，和老师同学们照了几张相<br>
+2021年6月28日返回家，安心准备下一件最重要的</p>
+<hr>
+<p>四年时间，有很多值得回忆的事...</p>
+<h3 id="关于学习">关于学习</h3>
+<p>专业学得是管理类，不是很喜欢，加之课程安排非常不合理，有些杂，不便于成为安生立命根本，遂弃之。成绩非常差，整个大学的绩点只有2.6。我也想着去提高自己的绩点，但实在没有动力，怪自己不太上进，这个要向室友和其他同学学习。</p>
+<p>大二选择学习编程语言，选了当时朋友圈最火的语言——Python。虽然大一学过一点C语言，但当时对编程没有什么概念。学Python也是从零开始，刚开始真的很难，但坚持了下来，期间也了解一些网络开发知识和一些系统底层知识，并做了几个小的编程开发作品。毕设也是纯开发，是一个前后端全平台产品<a href="https://wukkcode.github.io/post/wo-de-bi-she-xiang-mu/">我的毕设</a>，拿了优秀毕业论文。</p>
+<p>虽然很累，但我很享受自己从0到1打造产品不断完善的过程，真的很棒。</p>
+<h3 id="关于身边的人">关于身边的人</h3>
+<h4 id="几个老师">几个老师</h4>
+<p>教书育人，也是遇到了几个对我有所启发的老师。</p>
+<p>一个是好友介绍的，帮老师做了几个程序，算是一个编程进阶路上的助推吧。</p>
+<p>另一个是本专业老师，是在一个很特殊的情况下接触的。他在大三下教一门课，期末课设由于我直接抄的其它同学的，被发现。被教训了一顿，他说了“做人”，我很是触动，反思了一天一夜（没睡觉）。后面在做毕设和写论文的过程中，也给我很多实质性的意见。算是恩师吧！</p>
+<p>还有一个是我的论文导师，她让我理解了什么是科研。</p>
+<h4 id="四个室友">四个室友</h4>
+<p>室友都很好，各方面都很照顾我。用计算机的术语来说：他们<strong>兼容性</strong>很强。<br>
+希望他们能在自己的领域发光发彩吧！</p>
+<h4 id="一些朋友">一些朋友</h4>
+<p>我本人是不太喜欢社交的，就算路上碰上认识的人，大部分时候都不会主动打招呼，可能会给人一种不太礼貌的感觉，这可能是一个不好的习惯，会改正吧！<br>
+虽然这样，但也认识了几个有特点的朋友。<br>
+其中有一个隔壁班贵州的朋友，印象尤其深刻。我从他身上看到了“何谓成熟的人”</p>
+<h3 id="关于成长">关于成长</h3>
+<p>这里感谢父母一下，从小到大一直给我个人足够的时间和空间，这样有好处也有坏处吧。<br>
+坏处体验在前期的贪玩不懂事；好处在于个人成长不受干扰，可以独立思考，天马行空的想象。</p>
+<h3 id="总结">总结</h3>
+<p>但行好事，莫问前程</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[不设置临时变量从顺序表中找最小值]]></title>
+        <id>https://wukkcode.github.io/post/bu-she-zhi-lin-shi-bian-liang-cong-shun-xu-biao-zhong-zhao-zui-xiao-zhi/</id>
+        <link href="https://wukkcode.github.io/post/bu-she-zhi-lin-shi-bian-liang-cong-shun-xu-biao-zhong-zhao-zui-xiao-zhi/">
+        </link>
+        <updated>2021-06-23T09:16:20.000Z</updated>
+        <content type="html"><![CDATA[<p>挺有趣的一道题，记录下来了...</p>
+<pre><code class="language-c">int fnFindMinValue(int target[], int length) {
+    int i = target[0];  // i是已知的
+    while (i / 10 &lt; length) {
+        if (i % 10 &gt; target[i / 10]) {
+            i = i - i % 10;
+            i = i + target[i / 10];
+        }
+        i = i + 10;
+    }
+    return i % 10;
+}
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[我的毕设项目]]></title>
         <id>https://wukkcode.github.io/post/wo-de-bi-she-xiang-mu/</id>
