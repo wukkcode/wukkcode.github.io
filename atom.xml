@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wukkcode.github.io</id>
     <title>看山学长</title>
-    <updated>2021-06-27T13:59:13.518Z</updated>
+    <updated>2021-06-29T11:12:08.559Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wukkcode.github.io"/>
     <link rel="self" href="https://wukkcode.github.io/atom.xml"/>
@@ -10,6 +10,59 @@
     <logo>https://wukkcode.github.io/images/avatar.png</logo>
     <icon>https://wukkcode.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 看山学长</rights>
+    <entry>
+        <title type="html"><![CDATA[Windows 11抢先体验【现代UI设计】]]></title>
+        <id>https://wukkcode.github.io/post/windows-11-qiang-xian-ti-yan-quan-bu-ui-chong-zuo/</id>
+        <link href="https://wukkcode.github.io/post/windows-11-qiang-xian-ti-yan-quan-bu-ui-chong-zuo/">
+        </link>
+        <updated>2021-06-29T09:13:17.000Z</updated>
+        <content type="html"><![CDATA[<p>2021年6月29日我回到了家，作为微软粉，回到家的第一件事就是【更新Windows】</p>
+<hr>
+<p>Windows11本周会在dev频道开始测试，正式稳定版据说是在10月份左右公布：<a href="https://m.ithome.com/html/559820.htm">微软意外透露 Win11 正式版推出时间</a><br>
+我们可以打开【设置】——&gt;【Windows更新】——&gt;【Dev渠道】<br>
+<img src="https://p.pstatp.com/origin/pgc-image/77d5b61a66894fc8a88ed15d6d05e205" alt="" loading="lazy"></p>
+<p>当然，在开始更新前，我们可以先检测一下自己的配置是否符合要求，为此微软推出了一个<a href="https://www.microsoft.com/zh-cn/windows/windows-11?icid=mscom_marcom_H1a_Windows11">电脑健康状况检查工具</a>，但是<a href="https://m.ithome.com/html/559959.htm">微软承认其 Win11 升级电脑健康状况检测工具存在 bug，现已下架</a>。</p>
+<p>但是不用担心，有开发者连夜开发了一款比较好的检测工具：<a href="https://github.com/rcmaehl/WhyNotWin11">WhyNotWin11</a><br>
+<img src="https://p.pstatp.com/origin/pgc-image/a867add04ca5403f90a69675a8624649" alt="" loading="lazy"><br>
+这里比较关键的是【CPU版本】和【TPM安全检测模块】</p>
+<p>当然这些检测指标不是硬性得，你可以在预览窗口看一下自己得配置是否满足【最低硬件要求】<br>
+<a href="https://m.ithome.com/html/560005.htm">大量 Win10 用户无法推送升级 Win11 Dev 预览版：不满足最低硬件要求，频道选择受限</a><br>
+如果不满足最低硬件要求，一般是不会收到最新得Windows 11版本更新的。</p>
+<p>选择好之后就可以重启电脑，如果一切顺利，更新窗口就会收到【Window11更新提示】<br>
+然后就是漫长的下载更新和安装过程，这个时候给计算机通上电源，倒一杯茶，然后静静等待。</p>
+<p>首先是【开机logo】的变化<br>
+<img src="https://p.pstatp.com/origin/pgc-image/72c7c0cad4c84d229822b0e54dd12d71" alt="" loading="lazy"><br>
+倾斜logo变成正面logo</p>
+<p>【Windows聚焦】对比性也更强了<br>
+<img src="https://p.pstatp.com/origin/pgc-image/d787de1a3f7749c0b00681d7fbfd18dc" alt="" loading="lazy"></p>
+<p>开机之后就是一个全新的Windows了<br>
+<img src="https://p.pstatp.com/origin/pgc-image/4157c3fd5f9747898892734c04f24a0a" alt="" loading="lazy"><br>
+居中的任务栏，统一的Fluent图标，浮动的开始菜单，还有圆角窗口</p>
+<p>新加了一个【小组件】功能<br>
+<img src="https://p.pstatp.com/origin/pgc-image/b53fab61515449b0946162c261076cb8" alt="" loading="lazy"><br>
+现阶段只是一些可有可无的组件功能</p>
+<p>【文件资源管理器】也进行了重新设计<br>
+<img src="https://p.pstatp.com/origin/pgc-image/dcb21e77c6154c43bdc3db9b94f914b4" alt="" loading="lazy"><br>
+UI材质并没有使用原来的毛玻璃半透明，而采用是一种新的UI材质：<a href="https://m.ithome.com/html/559492.htm">Mica云母材质</a><br>
+因为毛玻璃材质对性能要求比较高</p>
+<p>还有万年不变的【右键菜单】也更新了<br>
+<img src="https://p.pstatp.com/origin/pgc-image/21a0b4abdd0844f9a1c665d66540951e" alt="" loading="lazy"></p>
+<p>【设置】界面采用新的UI和交互逻辑<br>
+<img src="https://p.pstatp.com/origin/pgc-image/35934707163d4597a090d42313407d06" alt="" loading="lazy"></p>
+<p>也自带了几款系统主题，但现阶段只是壁纸和颜色上的不同。<br>
+<img src="https://p.pstatp.com/origin/pgc-image/dd092712a4ea48b382899722a86f1a9c" alt="" loading="lazy"></p>
+<p>【微软商店】也更新了，使用【原生UWP】开发，性能更好。<br>
+<img src="https://p.pstatp.com/origin/pgc-image/fc9ffbc017174a38bf46a80ec3ac305d" alt="" loading="lazy"></p>
+<p>【输入法】UI也更新了：圆角，上下边距更小了，更加静止了。<br>
+<img src="https://p.pstatp.com/origin/pgc-image/d5ed745cffc1490fba07d80af0e54a2a" alt="" loading="lazy"></p>
+<p>除此之外，还有一些其它诸如声音、流畅动画、一些小的交互逻辑...</p>
+<hr>
+<p>但由于还是早期【Dev版本】，很多东西还是不够完善。像圆角设计只有少部分软件支持，微信就不是圆角；老版本的资源管理器会突然出现；开始菜单的固定图标使用起来也不是很方便；任务栏图标居中的时候左边会留白并不是很美观，不知道微软后续如何处理...</p>
+<p>可以期待一下后面【安卓应用支持】功能，感觉会对安卓平板市场造成冲击</p>
+<hr>
+<p>我只能说微软yyds！！！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[我毕业了]]></title>
         <id>https://wukkcode.github.io/post/guan-yu-bi-ye/</id>
